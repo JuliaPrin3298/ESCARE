@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    padding:20px;
+    overflow:auto;
+
+    font-family:Tahoma, Arial, sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),
+    url("https://wallpapercave.com/wp/wp2757874.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.janela{
+    width:900px;
+    min-height:650px;
+
+    background:#ece9d8;
+    border:2px solid #1f4d9a;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.title-bar{
+    background:linear-gradient(#2b72d9, #0d4ca3);
+    color:white;
+
+    padding:8px 12px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    font-weight:bold;
+}
+
+.title-buttons{
+    display:flex;
+    gap:5px;
+}
+
+.title-buttons div{
+    width:18px;
+    height:18px;
+    background:#ece9d8;
+    border:1px solid #666;
+}
+
+.voltar{
+    background:#ece9d8;
+    border:1px solid #555;
+
+    color:black;
+    font-weight:bold;
+
+    padding:5px 12px;
+    cursor:pointer;
+}
+
+.voltar:hover{
+    background:#d9e8ff;
+}
+
+.conteudo{
+    padding:25px;
+}
+
+.alerta{
+    background:#fff3cd;
+    border:1px solid #c9a227;
+    color:#5c4500;
+
+    padding:10px;
+    margin-bottom:20px;
+
+    font-weight:bold;
+    text-align:center;
+}
+
+.nota{
+    background:white;
+
+    padding:30px;
+
+    border:1px solid #999;
+
+    font-family:"Courier New", monospace;
+    font-size:15px;
+    line-height:1.7;
+
+    box-shadow:inset 0 0 8px rgba(0,0,0,.15);
+}
+
+.nota h1{
+    color:#003b8b;
+    margin-bottom:20px;
+    font-family:Tahoma, Arial, sans-serif;
+}
+
+.nota p{
+    margin-bottom:14px;
+    color:#111;
+}
+
+.interrompido{
+    margin-top:25px;
+    padding:12px;
+
+    background:#111;
+    color:#ff4d4d !important;
+
+    font-weight:bold;
+    text-align:center;
+
+    border:1px solid #600;
+}
