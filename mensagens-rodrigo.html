@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem Mensagens 1999</title>
+    <link rel="stylesheet" href="./css/mensagens.css">
+</head>
+
+<body>
+
+    <div class="mensagens-window">
+
+        <div class="title-bar">
+            <button class="voltar" onclick="window.location.href='./area-trabalho.html'">
+                ←
+            </button>
+
+            <span>Ordem Mensagens 1999</span>
+
+            <div class="title-buttons">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="mensagens-body">
+
+            <!-- LISTA DE CONTATOS -->
+            <div class="contacts">
+                <div class="contact active" onclick="abrirChat('cloe', this)">
+                    <div class="contact-name">Cloe Sunlive</div>
+                    <div class="contact-preview">...</div>
+                </div>
+
+                <div class="contact" onclick="abrirChat('anonimo', this)">
+                    <div class="contact-name">Contato Anônimo</div>
+                    <div class="contact-preview">...</div>
+                </div>
+
+                <div class="contact" onclick="abrirChat('torres', this)">
+                    <div class="contact-name">Agente M. Torres</div>
+                    <div class="contact-preview">...</div>
+                </div>
+            </div>
+
+            <!-- ÁREA DOS CHATS -->
+            <div class="chat-area">
+
+                <!-- CLOE -->
+                <div id="chat-cloe" class="chat-box">
+                    <div class="chat-header">
+                        <h2>Cloe Sunlive</h2>
+                        <span class="status-online">Último acesso: 02/07 - 03:07</span>
+                    </div>
+                    <div class="messages">
+                        <div class="message received">
+                            <div class="message-info">C.S - 23/06 22:14</div>
+                            Rodrigo. Recebi sua solicitação. Antes de continuar, quero deixar claro que estou
+                            compartilhando essas informações por iniciativa própria. Não represento os Hell Hunters
+                            nessa conversa.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 23/06 22:17</div>
+                            Tudo bem. Porque eu também não estou falando oficialmente pela Ordem.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 23/06 22:18</div>
+                            Ótimo. Então me explica por que existem registros de recebimento de equipamentos que nunca
+                            saíram dos nossos depósitos.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 23/06 22:21</div>
+                            Interessante. Porque aqui os documentos mostram que o material chegou normalmente.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 23/06 22:22</div>
+                            Alguém está mentindo.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 23/06 22:23</div>
+                            Essa foi exatamente minha conclusão. A diferença é que ainda não sei se são vocês ou nós.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 25/06 01:03</div>
+                            Encontrei mais uma inconsistência. Desta vez envolvendo transferência de pessoal.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 25/06 01:04</div>
+                            Eu também.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 25/06 01:05</div>
+                            Curioso. Sempre que aparece algo estranho nos nossos registros, você encontra algo parecido
+                            nos seus.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 25/06 01:06</div>
+                            Está me acusando?
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 25/06 01:07</div>
+                            Ainda não.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 25/06 01:09</div>
+                            Que reconfortante.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 29/06 23:44</div>
+                            Verifique os arquivos enviados hoje. As assinaturas parecem legítimas, mas algo está errado.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 29/06 23:48</div>
+                            Já vi. O padrão se repetiu.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 29/06 23:49</div>
+                            Você percebeu também?
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 29/06 23:50</div>
+                            Sim. Os documentos são alterados depois da troca oficial.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 29/06 23:52</div>
+                            Então alguém está interceptando o processo.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 29/06 23:53</div>
+                            Ou alguém dos Hell Hunters está manipulando os registros.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 29/06 23:54</div>
+                            Engraçado. Porque eu estava pensando exatamente a mesma coisa sobre a Ordem.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 02:58</div>
+                            Rodrigo. Você está acordado?
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 02/07 02:59</div>
+                            Infelizmente. O que foi agora?
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:00</div>
+                            Encontrei algo.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 02/07 03:00</div>
+                            Todo mundo que encontra algo me manda mensagem nesse horário?
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:01</div>
+                            Não estou brincando. Tem uma marca aparecendo em vários arquivos alterados.
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 02/07 03:02</div>
+                            Além da marca da sua assinatura em todos os arquivos de transações?
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:03</div>
+                            Ainda estou tentando descobrir sobre isso. Porque não fui eu que assinei
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 02/07 03:04</div>
+                            Conveniente.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:04</div>
+                            Você realmente acha que eu estou fazendo isso?
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 02/07 03:05</div>
+                            Eu acho que alguém está. E você está no topo da lista.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:06</div>
+                            Então continue investigando. Porque você também está no topo da minha.
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-info">C.S - 02/07 03:45</div>
+                            Rodrigo estou interceptando várias denúncias para a Laundry, está tudo bem ai?
+                        </div>
+
+                         <div class="message received">
+                            <div class="message-info">C.S - 02/07 05:59</div>
+                            Rodrigo. Você mandou uma equipe atacar nossa base?
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANONIMO -->
+                <div id="chat-anonimo" class="chat-box hidden">
+                    <div class="chat-header">
+                        <h2>Contato Anônimo</h2>
+                        <span class="status-offline">Identidade desconhecida</span>
+                    </div>
+                    <div class="messages">
+                        <div class="message received">
+                            <div class="message-info">??? - 01/07 21:44</div>
+                            Você sabe o que vai acontecer.
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 21:46</div>
+                            Quem é você? Cloe não gosto desse tipo de brincadeira
+                        </div>
+                        <div class="message received">
+                            <div class="message-info">??? - 01/07 21:51</div>
+                            Ataquem primeiro. Se não essa tal de Cloe vai atacar antes
+                        </div>
+                        <div class="message received">
+                            <div class="message-info">??? - 01/07 21:52</div>
+                            Os Hell Hunters vão destruir vocês.
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 21:53</div>
+                            Mande provas.
+                        </div>
+                        <div class="message received">
+                            <div class="message-info">??? - 01/07 21:54</div>
+                            Os Hell Hunters vão destruir vocês. E amanhã todos estarão em seus novos lares debaixo da terra
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Olivia -->
+                <div id="chat-torres" class="chat-box hidden">
+                    <div class="chat-header">
+                        <h2>Olivia L.</h2>
+                        <span class="status-online">Em serviço</span>
+                    </div>
+                    <div class="messages">
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:12</div>
+                            Preciso que confira o trabalho da equipe novata enviada ao Manicômio Hilston em São Paulo.
+                        </div>
+                        <div class="message received">
+                            <div class="message-info">Olivia  - 01/07 18:14</div>
+                            Vai confiar em mim pra conferir isso?
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:18</div>
+                            Em você exatamente não, na sua equipe, só tenho seu contato por isso te encaminhei os dados.
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:18</div>
+                           Alguns dados desapareceram dos relatórios. Problema em trabalhar com navatos.
+                        </div>
+                        <div class="message received">
+                            <div class="message-info">Olivia  - 01/07 18:14</div>
+                            Tá, é pra mim fazer oque meo
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:18</div>
+                            Limpeza e restauração dos acontecimentos, a equipe novata teve uma perda no local e não quero forçar o retorno para o local.                        </div>
+                        <div class="message received">
+                            <div class="message-info">Olivia  - 01/07 18:14</div>
+                            Cara eu trabalhava no circo não sei lidar com programa não 🤣🤣
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:18</div>
+                            Programa? Você e sua equipe só vão limpar o local e ver os documentos que estão faltando, vocês já estão fazendo isso a semanas (*￣ー￣)                     </div>
+                        <div class="message received">
+                            <div class="message-info">Olivia  - 01/07 18:14</div>
+                            Aí tá... eu vejo com os outros isso ai
+                        </div>
+                        <div class="message sent">
+                            <div class="message-info">Rodrigo - 01/07 18:19</div>
+                            Okay! Se algo estranho acontecer, me avise imediatamente e me mande depois o contato do líder da equipe
+                        </div>
+                         <div class="message received">
+                            <div class="message-info">Olivia  - 01/07 18:14</div>
+                            Tá tá
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /chat-area -->
+        </div> <!-- /mensagens-body -->
+    </div> <!-- /mensagens-window -->
+
+    <script>
+        function abrirChat(nomeChat, elementoClicado) {
+            // Oculta todas as caixas de chat
+            const todosChats = document.querySelectorAll(".chat-box");
+            todosChats.forEach(function (chat) {
+                chat.classList.add("hidden");
+            });
+
+            // Mostra o chat selecionado
+            const chatEscolhido = document.getElementById("chat-" + nomeChat);
+            if (chatEscolhido) {
+                chatEscolhido.classList.remove("hidden");
+
+                // BÔNUS: Rola o chat automaticamente para as mensagens mais recentes
+                const containerMensagens = chatEscolhido.querySelector(".messages");
+                if (containerMensagens) {
+                    containerMensagens.scrollTop = containerMensagens.scrollHeight;
+                }
+            }
+
+            // Remove a classe ativa de todos os contatos da barra lateral
+            const todosContatos = document.querySelectorAll(".contact");
+            todosContatos.forEach(function (contato) {
+                contato.classList.remove("active");
+            });
+
+            // Ativa o contato clicado
+            elementoClicado.classList.add("active");
+        }
+
+        // Executa uma vez ao carregar para garantir que o chat ativo comece scrollado no final
+        window.addEventListener("DOMContentLoaded", () => {
+            const chatAtivo = document.querySelector(".chat-box:not(.hidden) .messages");
+            if (chatAtivo) chatAtivo.scrollTop = chatAtivo.scrollHeight;
+        });
+    </script>
+</body>
+
+</html>
